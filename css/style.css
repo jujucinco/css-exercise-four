@@ -1,4 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
+}
+
+.container {
+  background-color:white;
+  width:600px;
+  height:800px;
+  margin:0px auto;
+}
+
+
+.preview-baku  {
+  background-image: url(../images/baku.jpg); width:600px; height:600px
+
 }
